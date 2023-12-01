@@ -1,0 +1,59 @@
+body {
+    background-color:rgb(245, 241, 236);
+    margin: 15%;
+    padding: 10%;
+}
+.tarjeta{
+    background-color: #ffffff;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    
+    
+}
+.imagen{
+    max-width: 50%;
+    max-height: auto;
+    border-radius: 10px 0 0 10px;
+}
+.contenedor{
+    background-color: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+}
+.precio-actual{
+    font-size: 24px;
+    color: rgb(83, 136, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.precio-anterior{
+    text-decoration: line-through;
+    color: rgb(184, 184, 184);
+}
+.comprar{
+    color:white;
+    background-color: rgb(80, 145, 80);
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    .icono{
+        padding-right: 7px;
+    }
+    border: none;
+    margin-top: 15px;
+}
+p{
+    color: rgb(141, 138, 138);
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.perfume {
+    letter-spacing: 0.3em;
+    font-size: 11px;
+    font-family: [Fraunces]
+}
